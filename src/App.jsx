@@ -91,7 +91,7 @@ function App() {
     {
       path: "/",
       element: <LayoutClient />,
-      errorElement: <NotFound />,
+      // errorElement: <NotFound />,
       children: [
         { index: true, element: <Home /> },
         { path: "gioi-thieu", element: <AboutUs /> },
